@@ -179,3 +179,14 @@ This project provides hands-on experience in database schema creation, table rel
 **Shanthini **
 
 **Skills:** MySQL | SQL | Database Design | Data Management
+
+## 📄 License
+
+This project is created for educational and assignment purposes only.
+
+## 🙏 Acknowledgments
+
+I would like to thank:
+
+- **Entri Elevate Course Support** for providing guidance and learning resources throughout this project.
+- **MySQL Documentation** for valuable references and support in understanding SQL commands, database design, and implementation.
