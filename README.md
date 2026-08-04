@@ -74,6 +74,7 @@ This project addresses these challenges by developing an Employee Database Manag
 | Salary | DECIMAL(10,2) | Employee salary amount |
 | Email | VARCHAR(100) | Employee email address |
 
+---
 
 # 🛠️ Tools & Technologies
 
