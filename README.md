@@ -17,41 +17,25 @@ Relationships between the tables are established using Primary Keys and Foreign 
 
 # 🎯 Project Objective
 
-The main objectives of this project are:
+Organizations need an efficient way to store and manage employee information such as employee details, departments, locations, salaries, and other related data. Managing this information without a properly structured relational database can lead to data duplication, missing values, inconsistent records, and difficulties in retrieving useful information.
 
-Design a structured relational database for employee management.
-
-Create and manage database tables using MySQL DDL commands.
-
-Implement Primary Key and Foreign Key relationships.
-
-Apply NOT NULL, UNIQUE, CHECK, and DEFAULT constraints.
-
-Maintain data integrity and consistency.
-
-Minimize data redundancy through database normalization.
-
-Perform data retrieval and analysis using SQL clauses and operators.
-
-Use joins to retrieve related information from multiple tables.
-
-Apply aggregate and window functions for employee analysis.
-
-Develop practical SQL skills applicable to real-world business databases.
+This project addresses these challenges by developing an Employee Database Management System using MySQL. The system organizes employee-related data into normalized tables with appropriate primary keys, foreign keys, and SQL constraints to ensure data accuracy and integrity. It also provides SQL-based operations for filtering, sorting, grouping, aggregation, joining tables, handling missing data, and performing ranking and cumulative analysis using window functions. This enables efficient data management and supports better analysis and decision-making.
 
 ---
 
 # 📝 Problem Statement
 
-Organizations need an efficient way to store and manage employee information such as employee details, department assignments, locations, and salary information.
+- Design a structured relational database for employee management.
+- Create and manage database tables using MySQL DDL commands.
+- Implement Primary Key and Foreign Key relationships.
+- Apply NOT NULL, UNIQUE, CHECK, and DEFAULT constraints.
+- Maintain data integrity and consistency.
+- Minimize data redundancy through database normalization.
+- Perform data retrieval and analysis using SQL clauses and operators.
+- Use joins to retrieve related information from multiple tables.
+- Apply aggregate and window functions for employee analysis.
+- Develop practical SQL skills applicable to real-world business databases.
 
-Managing employee records without a structured database can lead to:
-- Duplicate records
-- Missing information
-- Data inconsistency
-- Difficulty maintaining relationships between data
-
-This project solves these challenges by designing a normalized relational database system using MySQL with proper table relationships and constraints.
 
 ---
 
@@ -90,26 +74,6 @@ This project solves these challenges by designing a normalized relational databa
 | Salary | DECIMAL(10,2) | Employee salary amount |
 | Email | VARCHAR(100) | Employee email address |
 
-
-Table Relationships
-The database follows a relational structure:
-
-Departments_info
-     │
-     │ department_id
-     │
-     ▼
- Employees
-     ▲
-     │ location_id
-     │
-     │
-Locations
-Departments_info.department_id → Employees.department_id
-
-Locations.location_id → Employees.location_id
-
-employee_id, department_id, and location_id are used to uniquely identify and connect records.
 
 # 🛠️ Tools & Technologies
 
