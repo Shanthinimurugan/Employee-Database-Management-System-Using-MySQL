@@ -9,11 +9,8 @@ The Employee Database Management System is a relational database project develop
 The project focuses on designing a structured and reliable database using DDL commands, SQL constraints, clauses, aggregate functions, joins, and window functions. It demonstrates how relational databases can be designed to maintain data accuracy, consistency, integrity, and minimize data redundancy.
 
 The database consists of three main tables:
-
 Departments
-
 Locations
-
 Employees
 
 Relationships between the tables are established using Primary Keys and Foreign Keys, while constraints such as NOT NULL, UNIQUE, CHECK, and DEFAULT are used to enforce business rules.
@@ -21,6 +18,7 @@ Relationships between the tables are established using Primary Keys and Foreign 
 # 🎯 Project Objective
 
 The main objectives of this project are:
+
 Design a structured relational database for employee management.
 
 Create and manage database tables using MySQL DDL commands.
@@ -92,7 +90,6 @@ This project solves these challenges by designing a normalized relational databa
 | Salary | DECIMAL(10,2) | Employee salary amount |
 | Email | VARCHAR(100) | Employee email address |
 
----
 
 Table Relationships
 The database follows a relational structure:
@@ -174,7 +171,7 @@ Implemented:
 - CHECK → Ensures employee age is 18 or above.
 - DEFAULT → Automatically assigns current date for joining date.
 
-📊 SQL Queries & Data Analysis
+# 📊 SQL Queries & Data Analysis
 
 ### DISTINCT
 - Retrieved distinct salary values from the Employees table.
@@ -196,16 +193,17 @@ Earn more than ₹50,000 and hired before 2016-01-01
 Identified employees whose designation was missing and updated the value to:
 Data Scientist
 
-### Sorting & Limiting Data
+## Sorting & Limiting Data
 - ORDER BY
 Employees were sorted using multiple conditions:
 department_id in ascending order and salary in descending order
 * This demonstrates multi-column sorting.
 
-- LIMIT
+### LIMIT
 Displayed the first 5 employees hired in 2018.
 
-📈 Aggregate Functions
+# 📈 Aggregate Functions
+
 Aggregate functions were used to summarize employee data.
 
 - SUM()
@@ -222,7 +220,7 @@ AVG()
 MIN()
 MAX()
 
-📊 GROUP BY
+# 📊 GROUP BY
 
 - Maximum Salary by Location
 Calculated the maximum salary for employees in each location.
@@ -230,17 +228,17 @@ Calculated the maximum salary for employees in each location.
 - Average Salary by Designation
 Calculated the average salary for designations containing the word: Analyst
 
-🔎 HAVING Clause
+# 🔎 HAVING Clause
 - Departments with Less Than 3 Employees
 Identified departments having fewer than 3 employees.
 
-Locations with Female Employees
-- Identified locations where:
+- Locations with Female Employees
+Identified locations where:
 Employees are female
 Average employee age is below 30
 The HAVING clause was used to filter grouped results.
 
-🔗 SQL JOINS
+# 🔗 SQL JOINS
 Different types of joins were implemented to retrieve related information.
 
 - INNER JOIN
@@ -264,12 +262,12 @@ Generated all possible combinations between:
 Departments and Locations
 * This demonstrates a Cartesian product between two tables.
 
-SELF JOIN
+- SELF JOIN
 Compared employees within the same table to identify pairs of employees working in the same department.
+* Self-pairs were excluded from the result.
 
-Self-pairs were excluded from the result.
+# 🪟 Window Functions
 
-🪟 Window Functions
 Window functions were used for advanced employee salary analysis without collapsing individual employee records.
 
 - RANK()
@@ -343,6 +341,7 @@ The Employee Database Management System demonstrates how MySQL can be used to de
 The project covers essential SQL concepts including DDL commands, constraints, filtering, sorting, grouping, aggregate functions, joins, and window functions. By implementing these concepts, the database maintains data integrity while providing a strong foundation for employee-related data management and analysis.
 
 This project strengthened my practical understanding of MySQL database design and SQL querying and provided hands-on experience in applying SQL concepts to a real-world business scenario.
+
 ---
 
 # 👩‍💻 Author
