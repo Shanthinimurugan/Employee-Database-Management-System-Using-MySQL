@@ -167,7 +167,7 @@ department_id in ascending order and salary in descending order
 ### LIMIT
 Displayed the first 5 employees hired in 2018.
 
-# 📈 Aggregate Functions
+### 📈 Aggregate Functions
 
 Aggregate functions were used to summarize employee data.
 
@@ -180,7 +180,7 @@ Identified the minimum age among all employees.
 Other aggregate functions demonstrated through the project include:
 COUNT(), SUM(), AVG(), MIN(), MAX()
 
-# 📊 GROUP BY
+### 📊 GROUP BY
 
 - Maximum Salary by Location
 Calculated the maximum salary for employees in each location.
@@ -188,7 +188,7 @@ Calculated the maximum salary for employees in each location.
 - Average Salary by Designation
 Calculated the average salary for designations containing the word: Analyst
 
-# 🔎 HAVING Clause
+### 🔎 HAVING Clause
 - Departments with Less Than 3 Employees
 Identified departments having fewer than 3 employees.
 
@@ -198,7 +198,7 @@ Employees are female
 Average employee age is below 30
 The HAVING clause was used to filter grouped results.
 
-# 🔗 SQL JOINS
+### 🔗 SQL JOINS
 Different types of joins were implemented to retrieve related information.
 
 - INNER JOIN
@@ -226,7 +226,7 @@ Departments and Locations
 Compared employees within the same table to identify pairs of employees working in the same department.
 * Self-pairs were excluded from the result.
 
-# 🪟 Window Functions
+### 🪟 Window Functions
 
 Window functions were used for advanced employee salary analysis without collapsing individual employee records.
 
@@ -263,7 +263,7 @@ Employee-Database-Management-System/
 
 ---
 
-💡 Key Learning Outcomes
+# 💡 Key Learning Outcomes
 
 - Through this project, I gained practical experience in:
 - Designing relational database schemas.
@@ -279,7 +279,7 @@ Employee-Database-Management-System/
 - Applying window functions for ranking and cumulative analysis.
 - Understanding database normalization and data integrity.
 
-🚀 Future Enhancements
+# 🚀 Future Enhancements
 
 * The project can be further enhanced by adding:
 * Employee attendance management
@@ -294,7 +294,7 @@ Employee-Database-Management-System/
 * Triggers
 * Indexing for query optimization
 
-🏁 Conclusion
+# 🏁 Conclusion
 
 The Employee Database Management System demonstrates how MySQL can be used to design, manage, and analyze a structured relational database.
 
@@ -304,7 +304,7 @@ This project strengthened my practical understanding of MySQL database design an
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Shanthini **
 
