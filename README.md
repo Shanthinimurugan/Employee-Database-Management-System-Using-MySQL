@@ -177,12 +177,7 @@ Calculated the total salary of employees working in the Finance department.
 Identified the minimum age among all employees.
 
 Other aggregate functions demonstrated through the project include:
-
-COUNT()
-SUM()
-AVG()
-MIN()
-MAX()
+COUNT(), SUM(), AVG(), MIN(), MAX()
 
 # 📊 GROUP BY
 
