@@ -78,15 +78,15 @@ This project addresses these challenges by developing an Employee Database Manag
 
 # 🛠️ Tools & Technologies
 
-- **Database:** MySQL
-- **Language:** SQL
-- **Concepts Used:**
-  - DDL Commands
-  - SQL Constraints
-  - Aggregate Functions
-  - Joins
-  - Window Functions
-  - Schema Management
+•	**MySQL** – Database creation, data management, and SQL querying
+•	**SQL** – Data manipulation, filtering, aggregation, joins, and analysis
+•	**DDL Commands** – CREATE, ALTER, RENAME, TRUNCATE, and DROP
+•	**SQL Constraints** – PRIMARY KEY, NOT NULL, UNIQUE, CHECK, and default values
+•	**SQL Clauses & Operators** – WHERE, ORDER BY, GROUP BY, HAVING, DISTINCT, and LIMIT
+•	**Aggregate Functions** – SUM(), MIN(), MAX(), and AVG()
+•	**Joins** – INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN, and SELF JOIN
+•	**Window Functions** – RANK() and DENSE_RANK() for employee salary analysis and ranking.
+
 
 ---
 
