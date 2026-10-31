@@ -245,9 +245,11 @@ This demonstrates how window functions can be used for cumulative analysis while
 
 ---
 
-Final Insights
+# 📊 Final Insights
 
 The Employee Database Analysis of **29 employees** shows a total salary expenditure of **₹21.50 lakh**, with the highest individual salary being **₹1,00,000** and the minimum employee age being **25 years**. IT has the highest workforce with 4 employees, whereas Operations, Research and Development, and Software Development have only **1 employee** each, highlighting potential staffing gaps. The Finance department has 2 employees with a combined salary of **₹1,70,000**, while **Pune** records the **highest location-wise salary** of **₹1,00,000**. **Female** employees have the **lowest average age** in Chennai at **26.75** years, compared with **27.33 years** in Bangalore, **29.20** years in Pune, and **32 years** in Hyderabad. These findings can help management identify staffing gaps, evaluate salary structures, and plan future workforce allocation based on existing employee and compensation patterns.
+
+---
 
 # 📂 Project Files
 
