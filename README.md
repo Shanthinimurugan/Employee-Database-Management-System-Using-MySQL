@@ -76,6 +76,37 @@ This project addresses these challenges by developing an Employee Database Manag
 
 ---
 
+## 📂 SQL Files
+
+The Employee Database Management System is divided into two SQL files to organize the project workflow and demonstrate SQL concepts step by step:
+
+### 1. `Employee Database.sql`
+This file contains the **initial database setup and SQL operations** completed before the **Clauses & Operators** section.
+
+It includes:
+- Database and table creation
+- Table structure and data insertion
+- Primary and foreign key constraints
+- Data validation and other SQL constraints
+- Basic SQL queries and operations
+
+### 2. `Employee Database 2.sql`
+This file continues the project after the initial database setup and focuses on advanced SQL querying concepts, including:
+
+- SQL Clauses
+- Operators
+- Aggregate Functions
+- `GROUP BY` and `HAVING`
+- `ORDER BY`
+- Joins
+- Subqueries
+- Window Functions
+- Data analysis and business insights
+
+> **Note:** `Employee Database 2.sql` is a continuation of `Employee Database.sql`. The first file should be executed before the second file to follow the complete project workflow.
+
+---
+
 # 🛠️ Tools & Technologies
 
 •	**MySQL** – Database creation, data management, and SQL querying  
